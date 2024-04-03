@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="projekatblog.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="b">
+	<div class="header" id="mojHeader">
+		<a href="pocetna.html"> <img src=".\slike-projekat\ane.jpg" alt="" height="25px" width="25px" style="border-radius: 50%;"> </a>
+		<a href="" class="active"> <i class="glyphicon glyphicon-book"> </i> Blog </a>
+		<a href="cv.html"> <i class="glyphicon glyphicon-cloud"> </i> Biografija </a>
+		<a href="galerija.html"> <i class="glyphicon glyphicon-camera"> </i> Galerija </a>
+		<a class="desno"> 
+			<div class="search-container">
+		    <form>
+		      <input type="text" placeholder="Pretraga" name="search" class="rounded">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 	</div>
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"> </i> </a>
+	</div>
+
+
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("mojHeader");
+	  if (x.className === "header") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "header";
+	  }
+	}
+	</script>
+
+	<div class="container mojBlog">
+		<div class="centriraj">
+		<div class="row">
+			<h1 class="naslov"> Moj Blog </h1>
+			<hr>
+			<div class="col-sm-12">
+				<h3 lead>Sadržaj: </h3>
+				<ul>
+					<li> <a href="#0a"> Trodimenzionalni ispis </a> 
+						<ul>
+							<li> <a href="#1"> Uvod </a> </li>
+							<li> <a href="#2"> Vrste 3D printanja </a> </li>
+							<li> <a href="#3"> Primjena </a> </li>
+						</ul>
+					</li>
+					<br>
+					<li> <a href="#0b"> Flash memorija </a> 
+						<ul>
+							<li> <a href="#4"> Šta je to Flash memorija? </a> </li>
+							<li> <a href="#5"> Način rada </a> </li>
+							<li> <a href="#6"> Glavne skupine Flash memorije </a> </li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<br>
+		<br>
+
+		<article>
+		<h3 id="0a" class="naslov"> Trodimenzionali ispis </h3>
+		<br>
+		<div class="row paragraf">
+			<h5 id="1"> Uvod </h5>
+			<br>
+				
+				<div class="col-sm-12 col-lg-6">
+					<p>
+						3D printanje je moderna tehnologija proizvodnje trodimenzionalnih objekata i predstavlja brže, jeftinije i lakše rješenje od drugih tehnologija proizvodnje 3D objekata. Omogućava izredu maketa djelova i sklopova od više različitih materijala, različitih mehaničkih i fizičkih svojstava. Ova tehnologija proizvodi modele koji vjerno oponašaju izgled, utisak i funkcionalnost proizvoda prototipa.  
+					</p>
+
+					<p>
+						Prvi trodimenzionalni predmet odštampao je Chuck Hull 1986. godine. To je bila plastična šolja. Hull je patentirao ovu tehniku tri godine kasnije i osnovao svoju kompaniju. Njegova kompanija, 3D Systems, je i danas jedna od najvećih i najprofitabilnijih u sektoru 3D printera. 
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-6 slika1">
+					<img src="https://cdn.shopify.com/s/files/1/0180/7671/products/MP07925_l_03_400x.png?v=1571262561" alt="" height="80%" width="50%">
+				</div> 
+		</div>
+
+		<div class="row paragraf">
+			<h5 id="2"> Vrste 3D printanja</h5>
+			<br>
+			<div class="col-sm-12">
+				<p>
+					Različiti printeri i različite tehnike rada koriste različite materijale. Ti materijali mogu da budu metal, staklo, keramika, plastika, polimeri, njihove kombinacije sa drvetom i drugim materijalima. Pojedini 3D-printeri kao materijal koriste čak i jestive komponente kao što su: sir, led, čokoladu, šećer itd.
+				</p>
+
+				<p>
+					3D printeri koriste različite tehnologije štampe:
+					<ul class="a pomjeri">
+						<li> <span class="ukoseno"> FDM tehnologija: </span> modeliranje nanošenjem rastopljenog materijala</li>
+						<li> <span class="ukoseno"> SLA tehnologija: </span> stereolitografija </li>
+						<li> <span class="ukoseno"> DLP tehnologija </span> </li>
+						<li> <span class="ukoseno"> Multi-jet modeliranje </span> </li>
+						<li> <span class="ukoseno"> SLS tehnologija: </span> selektivno lasersko sintetizovanje</li>
+						<li> <span class="ukoseno"> EBM tehnologija: </span> otapanje elektronskom zrakom</li>
+						<li> <span class="ukoseno"> LOM tehnologija: </span> lominiranje </li>
+					</ul>
+				</p>
+			</div>
+		</div>
+
+		<div class="row paragraf">
+			<h5 id="3"> Primjena </h5>
+			<br>
+			<div class="col-sm-12">
+				<p>
+					Arhitektura, dizajn, medicina, informatika i hemija su samo neka od područja primjene 3D-printera. Ovu tehnologiju koriste i arheolozi, za rekonstruisanje nepotpunih skeleta izumrlih životinja. Vajari sada mogu da uživaju gledajući kako 3D printer stvara umjetničko djelo koje su oni zamislili. 
+				</p>
+			</div>
+			<div class="slika1">
+					<img src="https://cdnb.artstation.com/p/assets/images/images/048/390/069/large/hae-sea-mona.jpg?1649908617" alt="" height="80%" width="50%">
+			</div>
+
+			<div class="col-sm-12">
+				<p>
+					<br>
+					Velika je primjena 3D tehnike u medicini. Specijalni 3D printeri koji su razvijeni samo za medicinu sposobni su da štampaju ćelije, a njihov cilj je da jednog dana budu u mogućnosti da odštampaju kompletne ljudske organe (bubrege, vane, srce...). Zubari pomoću njih izrađuju vještačke zube, a kada je potrebno i čitave proteze. Hirurzi mogu prije operacije da odštampaju izgled tumora i unaprijed se pripreme za komplikovanu operaciju, tako što će znati na šta trebaju da obrate pažnju tokom operacije. 
+					Jedna od primjena bila je i u farmaceutskoj industriji, za štampanje pilula. Prednost tih pilula je što se puno brže rastvaraju u ustima od običnih pilula i što se na osnovu laboratorijskih analazila sadržaj tih pilula može prilgoditi specifičnim potrebama svakog čovjeka, individualno, a time se postižu najbolji rezultati. 
+				</p>
+				<p>
+					Pokazano je u praksi da 3D štampanje može da izazove revoluciju i u građevini. Kineska kompanija Insun odštampala je deset kuća za 24 sata. Takođe su dokazali da se ista ta tehnologija može koristiti i za štampanje zgrada jer su na jednom sajmu građevinarstva odštampali zgradu od 5 spratova i trospratnu vilu. Sve zgrade su napravljene od betona i štampane su sloj po sloj. Za tu radnju koristili su veliki 3D štampač, dužine 150m, širine 10m i visine 6,5m. Ne samo da je izgradnja ovakvih kuća brža već je i puno jeftinija. 
+				</p>
+			</div>
+
+			<div class=" col-sm-12 slika1">
+					<iframe width=83% height="350" src="https://www.youtube.com/embed/vL2KoMNzGTo">
+					</iframe>
+			</div>
+		</div>
+		<br>
+		<br>
+		</article>
+
+		<article>
+		<h3 id="0b" class="naslov"> Flash memorija </h3>
+		<br>
+		<div class="row paragraf">
+			<h5 id="4"> Šta je to Flash memorija? </h5>
+			<br>
+				
+				<div class="col-sm-12">
+					<p>
+						Flash memorija jest takva vrsta pohranjivanja podataka unutar koje je moguće memorirati podatke na način da ti podaci ostanu memorirani čak i onda kada je uređaj koji sadrži Flash memoriju isključen. To u stvari znači da na bilo koju vrstu Flash memorije (kao što je na primjer microSD kartica) možete snimiti što god hoćete i možete biti sigurni da će to ostati snimljeno na medij sve dokle god to ne obrišete (ili dok se ne obriše u slučaju greške ili kvara).  
+					</p>
+
+					<p>
+						Ideja ovakvog načina pohranjivanja i sama Flash memorija nastala je još 1980.-ih godina prošlog vijeka. Ime su dobile zbog njihovog načina rada koji podsjeća na blic fotoaparata. 
+					</p>
+				
+				
+				
+					<p>
+						Flash memorije ne zahtijevaju napajanje da bi njihov sadržaj ostao u njima.  
+					</p>
+					<p>
+						Iako je ideja o ovakvom načinu pohranjivanja nastala možemo reći ”davno”, Flash memorija biva popularizirana početkom dvijehiljaditih, dok se u posljednjih desetak godina Flash memorija počinje zaista učestalo upotrebljavati i proizvoditi.
+					</p>
+					<p>
+						Razlog koji je uzrokovao da se Flash memorija počinje toliko masovno tražiti, proizvoditi i koristiti tek u posljednjih desetak godina jest taj što je u posljednjih desetak godina tehnologija koja se puno više oslanja na Flash memoriju značajno napredovala. Mobiteli, računari (prijenosni i stolni), kamere, tableti doveli su do masovne potražnje, a onda i proizvodnje Flash memorije.
+					</p>
+				</div>
+				<div class="slika1">
+					<img src="https://images.easytechjunkie.com/flash-memory-chips.jpg" alt="" height="60%" width="40%">
+				</div>
+		</div>
+
+		<div class="row paragraf">
+			<h5 id="5"> Način rada </h5>
+			<br>
+			<div class="col-sm-12">
+				<p>
+					Flash memorija smješta informacije u redove FTG-a (Floating Gate Transistors) koji se nazivaju “ćelijama” , i svaki od njih smješta po jedan bit informacije. Uređaji novijih generacija, koji koriste flash memoriju, mogu da smještaju više od jednog bita informacija po ćeliji, koristeći više od dva nivoa električnog punjenja, i svaka sljedeća informacija je smještena na floating gejtu ćelije. 
+				</p>
+				<p>
+					Tranzistori imaju 2 gejta: <span class="podebljano">control gejt</span> i <span class="podebljano">floating gejt</span>. Oni su razdvojeni oksidnim slojem kroz koji struja inače ne može prolaziti. 
+				</p>
+				<p>
+					Floating gejt se nalazi između kontrolnog ulaza i podloge. Pošto je floating gejt izolovan njegovim oksidnim slojem, bilo koji elektron koji se nađe na njemu ostaje zarobljen tu i na taj način smješta informaciju. 
+				</p>
+				<p>
+					Procesi očitavanja, brisanja i programiranja se kontrolišu dvobajtnim intrukcijama, koje eksterni mikroprocesor upisuje u registar instrukcija flash kontrole. Za tipičnu flash memoriju dostupne su sljedeće instrukcije:
+					<ul class="a pomjeri">
+					  <li> <span class="ukoseno">Čitanje memorije (Read memory):</span> flash memorija obezbjeđuje podatke preko pinova podataka </li>
+					  <li> <span class="ukoseno"> Očitavanje identifikatora memorije (Red Identifier Code): </span> flash memorija obezbjeđuje kod na pinovima podataka, koji označavaju vrstu i verziju čipa</li>
+					  <li> <span class="ukoseno">Podešavanje brisanja (Set-up Erase):</span> priprema flash memoriju za process brisanja i izvršava brisanje </li>
+					  <li> <span class="ukoseno">Brisanje potvrđivanje (Erase-Verify):</span> briše sve memorijske ćelije i potvrđuje ovaj proces  </li>
+					  <li> <span class="ukoseno">Podešavanje programiranja (Set-up Program):</span> priprema programiranje pojedinačnih memorijskih ćelija i izvršava ovaj proces </li>
+					  <li> <span class="ukoseno">Programiranje-potvrđivanje (Program-Verify):</span> izvršava programiranje i potvrđuje ovaj proces  </li>
+					  <li> <span class="ukoseno">Resetovanje (Reset):</span> resetuje flash memoriju u definisano početno stanje. </li>
+					</ul>
+
+				</p>
+
+				
+			</div>
+
+		</div>
+
+		<div class="row paragraf">
+			<h5 id="6"> Glavne skupine Flash memorije</h5>
+			<br>
+			<div class="col-sm-12">
+				<p>
+					Flash memorija se dijeli u dvije velike skupine: <span class="podebljano">NAND i NOR Flash memoriju.</span> 
+				</p>
+				<p>
+					<span class="podebljano">NAND memorija</span> je osmišljena od strane tvrtke Toshiba 1989. godine. Glavne značajke  ove skupine Flash memorije jest veća gustoća memorijskih ćelija, što je u konačnici omogućivalo puno veći kapacitet pohrane podataka te puno veću brzinu zapisivanja i brisanja podataka. 
+				</p>
+				<p>
+					<span class="podebljano">NOR memorija</span> je osmišljena od strane tvrtke Intel godinu dana ranije. Najvažniji razlog zbog kojeg je Intel osmislio NOR memoriju jest taj što je tvrtka htjela nekako pronaći adekvatnu zamjenu za ROM memoriju.
+				</p>
+			</div>
+			<div class="slika1">
+					<img src="https://digilent.com/blog/wp-content/uploads/2016/10/memory-technology-tree-1.png" alt="" height="70%" width="60%">
+			</div>
+			<div class="col-sm-12">
+				<p>
+					Karakteristike NAND flash-a su: velik kapacitet, srednja brzina čitanja, velika brzina zapisivanja, velika brzina brisanja, i indirektan pristup.  
+				</p>
+				<p>
+					Karakteristike NOR flash-a su: manji kapacitet, velika brzina čitanja, mala brzina zapisivanja, mala brzina brisanja, i interfejs za slučajni pristup. 
+				</p>
+				<p>
+					Za aplikacije za pohranu NAND flash-ova veća gustoća, i veća brzina za programiranje i brisanje čine ovu vrstu najboljih izborom. Dok je prednost visokih programskih brzina u visokoj gustoći flash uređaja očigledna, performansa brisanja je podjednako bitna. 
+				</p>
+				<p>
+					Snaga je još jedna važna karakteristika za mnoge aplikacije. Za sve aplikacije intenzivnog zapisivanja, NAND flash će potrošiti znatno manje energije. 
+				</p>
+				<p>
+					Cijena NAND Flash memorije je niža u odnosu na cijenu NOR flash memorije. Zbog ovoga se NAND memorija koristi ćešće, pogotovo za primjene gdje je potrebno čuvati veće količine podataka. Najbolji primjer za ovo je čuvanje audio I video datoteka.  
+				</p>
+			</div>
+			<div class="col-sm-12 ogradi">
+				<table class="table table-striped">
+					
+					<thead>
+						<tr>
+						<th>OSOBINA</th>
+						<th>NOR</th>
+						<th>NAND</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<th>XIP</th>
+						<th>Da</th>
+						<th>Ne</th>
+						</tr>
+
+						<tr>
+						<th>Brisanje</th>
+						<th>Vrlo sporo</th>
+						<th>Brzo</th>
+						</tr>
+
+						<tr>
+						<th>Pisanje</th>
+						<th>Sporo</th>
+						<th>Brzo</th>
+						</tr>
+
+						<tr>
+						<th>Čitanje</th>
+						<th>Brzo</th>
+						<th>Brzo</th>
+						</tr>
+
+						<tr>
+						<th>Broj upisa/brisanja</th>
+						<th>10,000-100,000</th>
+						<th>100,000-1,000,000</th>
+						</tr>
+
+						<tr>
+						<th>Cijena</th>
+						<th>Visoka</th>
+						<th>Vrlo niska</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		</article>
+	</div>
+	</div>
+
+
+	<div class="footer">
+		<p><a href="" > <i class="glyphicon glyphicon-upload"> </i> </a></p>
+		<p><a href="https://www.instagram.com/anesaaa_h/" target="_blank" > <i class="glyphicon glyphicon-instagram"> </i> Instagram </a></p>
+		<p><a href="https://www.facebook.com/profile.php?id=100008377596887" target="_blank" > <i class="glyphicon glyphicon-facebook"> </i> Facebook </a></p>
+		<p><a href="">  &copy 2022</a></p>
+	</div>
+
+
+</body>
+</html>
